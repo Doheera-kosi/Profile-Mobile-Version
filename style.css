@@ -1,7 +1,7 @@
 html {
   padding: 0;
   margin: 0;
-  font-family:'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   list-style: none;
   color: white;
 }
@@ -56,7 +56,7 @@ html {
 .logo-text {
   width: 81px;
   height: 16px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -129,7 +129,7 @@ h1 {
   margin-top: 5px;
 }
 
-.p-section{
+.p-section {
   display: flex;
   flex-direction: row;
   margin-bottom: 15px;
@@ -137,13 +137,13 @@ h1 {
 
 p {
   width: 327px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #C8C8D4;
+  color: #d8d8d4;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -168,37 +168,34 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-weight: 100;
 }
 
 .language {
   width: auto;
   height: auto;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   color: #f5f5ff;
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin-top: 0px;
-  font-family: 'Roboto';
+  margin-top: 0;
   line-height: 38px;
 }
 
 .framework {
   width: auto;
   height: auto;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   color: #f5f5ff;
@@ -206,18 +203,16 @@ p {
   order: 0;
   flex-grow: 0;
   margin-left: 20px;
-  font-family: 'Roboto';
   line-height: 38px;
 }
 
 .skills {
   width: auto;
   height: auto;
-  font-family: 'Roboto';
+  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
-  line-height: 24px;
   display: flex;
   align-items: center;
   color: #f5f5ff;
@@ -226,14 +221,13 @@ p {
   flex-grow: 0;
   margin-left: 1px;
   text-align: start;
-  margin-top: 0px;
-  flex-direction: column;
+  margin-top: 0;
   line-height: 38px;
 }
 
 .common {
   color: #9490ff;
-  font-size: 123x;
+  font-size: 12px;
 }
 
 .social-media {
@@ -241,6 +235,7 @@ p {
   padding-left: 10px;
   padding-right: 60px;
 }
+
 .link {
   margin-left: 5px;
   margin-right: 7px;
@@ -252,7 +247,7 @@ ul {
   list-style-type: none;
 }
 
-.divider-div{
+.divider-div {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -262,11 +257,9 @@ ul {
 
 .divider {
   position: absolute;
-  height: 0px;
-  background-color:  #646369;
+  background-color: #646369;
   width: 80%;
   height: 0.7px;
-    
 }
 
 .element {
