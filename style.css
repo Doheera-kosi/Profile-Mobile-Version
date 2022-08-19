@@ -1,8 +1,7 @@
-
 html {
   padding: 0;
   margin: 0;
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family:'Roboto';
   list-style: none;
   color: white;
 }
@@ -10,40 +9,36 @@ html {
 .screen {
   position: relative;
   width: 375px;
-  height: 5415px;
+  padding-bottom: 20px;
   background: #191765;
   display: inline-block;
 }
 
-.app-bar-compact {
-  position: absolute;
-  width: 375px;
-  height: 92px;
-  left: 0;
-  top: 0;
-}
-
-.status-bar {
-  position: absolute;
-  width: 375px;
-  height: 44px;
-  left: calc(50% - 375px / 2);
-  top: 0;
-}
-
 .header {
-  width: 100;
-  height: 92px;
-  left: 0;
-  top: 0;
+  width: 100%;
+  height: 20px;
+  margin-top: 10px;
+  padding-top: 5px;
+}
+
+.time-status {
+  background-color: none;
+  margin-left: 25px;
+  margin-right: 25px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.status {
+  size: px;
 }
 
 .header-items {
   width: 375px;
-  height: 92px;
+  height: 20px;
   position: absolute;
-  padding-top: 0;
-  margin-top: 0;
+  padding-top: 20px;
 }
 
 .my-logo {
@@ -61,7 +56,7 @@ html {
 .logo-text {
   width: 81px;
   height: 16px;
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -73,6 +68,7 @@ html {
   color: #fff;
   flex: none;
   order: 0;
+  flex-grow: 0;
 }
 
 .menu-btn {
@@ -133,47 +129,25 @@ h1 {
   margin-top: 5px;
 }
 
-p {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
-  font-style: normal;
-  line-height: 25px;
-  letter-spacing: normal;
-  font-weight: normal;
-  text-align: justify;
-  padding: 20px;
-  color: #a0a0a3;
-}
-
-.social-media {
-  width: 100%;
-  height: 82px;
-  color: white;
-  padding: 70px 0;
-  text-align: center;
-}
-
-a {
-  padding: 4px;
-  color: white;
-}
-
-i {
-  height: 30px;
-  width: 30px;
-}
-
-.links {
+.p-section{
   display: flex;
-  width: 270px;
-  padding-top: 50px;
-  align-content: flex-start;
-  align-items: center;
-  justify-content: center;
+  flex-direction: row;
+  margin-bottom: 15px;
 }
 
-li {
-  list-style: none;
-  padding-left: 5px;
+p {
+  width: 327px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #C8C8D4;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-left: 10px;
 }
 
 .support {
@@ -194,31 +168,105 @@ li {
   flex: none;
   order: 0;
   flex-grow: 0;
+  font-family: 'Roboto';
   font-weight: 100;
 }
 
 .language {
-  width: 50%;
-  line-height: 35px;
+  width: auto;
+  height: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #f5f5ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-top: 0px;
+  font-family: 'Roboto';
+  line-height: 38px;
 }
 
 .framework {
-  width: 50%;
-  line-height: 35px;
+  width: auto;
+  height: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #f5f5ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 20px;
+  font-family: 'Roboto';
+  line-height: 38px;
 }
 
 .skills {
-  width: 50%;
-  line-height: 35px;
+  width: auto;
+  height: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #f5f5ff;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin-left: 1px;
+  text-align: start;
+  margin-top: 0px;
+  flex-direction: column;
+  line-height: 38px;
 }
 
 .common {
-  color: gray;
+  color: #9490ff;
+  font-size: 123x;
 }
 
-hr {
-  width: 310px;
-  color: #a2a3ae;
+.social-media {
+  justify-content: center;
+  padding-left: 10px;
+  padding-right: 60px;
+}
+.link {
+  margin-left: 5px;
+  margin-right: 7px;
+  justify-content: center;
+  display: flex;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.divider-div{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5px;
+}
+
+.divider {
+  position: absolute;
+  height: 0px;
+  background-color:  #646369;
+  width: 80%;
+  height: 0.7px;
+    
 }
 
 .element {
@@ -232,10 +280,12 @@ hr {
   font-weight: 500;
   font-size: 20px;
   color: #a2a3ae;
+  padding-left: 20px;
 }
 
 .arrow {
-  padding-top: 23px;
+  margin-left: 10px;
+  height: 20px;
 }
 
 a:hover {
