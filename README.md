@@ -3,7 +3,10 @@
 # Project Name
 Profile Moblie Verison
 
-> Description the project.
+> Description of the project.
+
+The is Html&Css Mobile View Project which is a mimic 
+of figma templates 
 
 
 ## Built With
