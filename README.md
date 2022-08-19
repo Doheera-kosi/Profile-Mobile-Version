@@ -3,12 +3,6 @@
 # Project Name
 Profile Moblie Verison
 
-> Description of the project.
-
-The is Html&Css Mobile View Project which is a mimic 
-of figma templates 
-
-
 ## Built With
 
 - html and css
@@ -20,7 +14,7 @@ of figma templates
 Run the command below from the terminal
 
 - git clone in your terminal
-- cd hello-micriverse
+
 - start index.html
 
 
