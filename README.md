@@ -1,9 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-Profile Moblie Verison
+**Profile Moblie Verison**
 
 > Description the project.
+
+**Portifolio project for mobile view**
 
 
 ## Built With
