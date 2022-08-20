@@ -1,9 +1,15 @@
+
 html {
   padding: 0;
   margin: 0;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto';
   list-style: none;
   color: white;
+}
+
+body {
+  padding: 0;
+  margin: 0;
 }
 
 .screen {
@@ -55,7 +61,7 @@ html {
 
 .logo-text {
   height: 16px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto';
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -100,7 +106,7 @@ html {
   color: #7d73fc;
   font-size: 48px;
   font-weight: 700;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto';
   margin-bottom: -10px;
   margin-top: 80px;
 }
@@ -109,7 +115,7 @@ html {
   color: #edecff;
   font-size: 32px;
   font-weight: 500;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto';
 }
 
 .headline {
@@ -127,7 +133,7 @@ html {
 }
 
 h1 {
-  font-family: Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 600;
   font-size: 55px;
@@ -143,7 +149,8 @@ h1 {
 
 p {
   width: 327px;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  height: 170px;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -174,14 +181,14 @@ p {
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto',;
   font-weight: 100;
 }
 
 .language {
   width: auto;
   height: auto;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -198,7 +205,7 @@ p {
 .framework {
   width: auto;
   height: auto;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -215,7 +222,7 @@ p {
 .skills {
   width: auto;
   height: auto;
-  font-family: 'Roboto', Helvetica, Arial, Verdana, Tahoma, sans-serif;
+  font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -232,8 +239,20 @@ p {
 }
 
 .common {
+  width: 140px;
+  height: 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
   color: #9490ff;
-  font-size: 15px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .social-media {
@@ -275,7 +294,7 @@ ul {
 }
 
 .work {
-  font-family: system-ui, 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 20px;
   color: #a2a3ae;
