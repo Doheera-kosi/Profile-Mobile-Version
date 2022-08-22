@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300&display=swap');
 
-html, body {
+html,
+body {
   padding: 0;
   margin: 0;
 }
 
-/* sectionScreen */
 .mainScreen {
   position: relative;
   width: 375px;
@@ -23,7 +23,6 @@ html, body {
 }
 
 .toolBar {
-  width: 100%;
   position: absolute;
   display: flex;
   justify-content: space-between;
@@ -44,7 +43,7 @@ html, body {
   line-height: 16;
   display: flex;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #fff;
   font-family: 'Roboto', sans-serif;
   padding-bottom: 30px;
 }
@@ -54,7 +53,6 @@ html, body {
   padding-bottom: 30px;
 }
 
-/* Section Headline */
 .headLine {
   display: flex;
   flex-direction: column;
@@ -69,13 +67,14 @@ html, body {
   margin-right: 24px;
   justify-content: center;
 }
+
 .textPrimary {
   width: 100%;
   height: 55px;
   text-align: center;
   padding-top: 30px;
   font-family: 'Roboto', sans-serif;
-  letter-spacing: .3px;
+  letter-spacing: 0.3px;
   font-weight: 700;
   line-height: 72px;
   font-size: 48px;
@@ -138,7 +137,6 @@ html, body {
 .divider-a {
   width: 326px;
   border: 1px solid #646369;
-  top: 710px;
   position: absolute;
   top: 1110px;
   margin-left: 25px;
@@ -172,10 +170,12 @@ html, body {
   padding-top: 0;
 }
 
-.lang, .framework, .skills {
+.lang,
+.framework,
+.skills {
   display: flex;
   flex-direction: column;
-  padding-left: 0px;
+  padding-left: 0;
   gap: 12px;
   width: 123px;
   height: 167.33px;
@@ -196,7 +196,6 @@ html, body {
   flex-direction: row;
   align-items: center;
   gap: 8;
-  width: 123px;
   height: 26.7px;
   width: 107px;
   font-family: 'Roboto', sans-serif;
@@ -212,18 +211,17 @@ html, body {
   position: absolute;
   height: 104px;
   width: 200px;
-  margin-left: 87.5px;   /* need this*/
+  margin-left: 87.5px;
   margin-right: 87.5px;
   top: 1160px;
 }
 
-
-.social-icons, .element {
+.social-icons,
+.element {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-
 }
 
 .social-icons {
@@ -256,7 +254,6 @@ html, body {
   padding-top: 5px;
 }
 
-/* My recent work */
 .recent-work {
   position: absolute;
   top: 1370px;
@@ -272,7 +269,7 @@ html, body {
 .recent-work-text {
   width: 327px;
   height: 104px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
@@ -280,14 +277,13 @@ html, body {
   text-transform: uppercase;
   display: flex;
   align-items: center;
-  color: #9490FF;
+  color: #9490ff;
   flex-grow: 0;
   top: 1490px;
 }
 
 .div-vector-4 {
   position: absolute;
-  /* top: 270px; */
   height: 0;
   width: 326px;
   border: 1px solid#646369;
@@ -295,12 +291,11 @@ html, body {
   top: 180px;
 }
 
-/* Section Features */
 .features {
   position: absolute;
   width: 327px;
   height: 3036px;
-  margin-left: 24.5px;   /* need this*/
+  margin-left: 24.5px;
   margin-right: 24.5px;
   top: 1610px;
 }
@@ -359,21 +354,10 @@ html, body {
   top: 1670.22px;
 }
 
-/* .ellipse-020 {
-  position: relative;
-  width: 70.28px;
-  height: 261.6px;
-  left: 447.27px;
-  top: 2437.23px;
-  background: #EDECFF;
-  filter: blur(50px);
-  transform: matrix(-0.84, -0.54, -0.54, 0.84, 0, 0);
-} */
-
 .img-placeholder {
   width: 327px;
   height: 236px;
-  background: linear-gradient(0deg, #F9F9F9, #F9F9F9), url(image_processing20200716-21735-f07s4k.png);
+  background: linear-gradient(0deg, #f9f9f9, #f9f9f9), url(image_processing20200716-21735-f07s4k.png);
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -384,7 +368,7 @@ html, body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 8px;
   width: 312px;
   height: 40px;
@@ -407,12 +391,12 @@ html, body {
 .css {
   width: 25px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -422,7 +406,7 @@ html, body {
 .vl-1 {
   width: 1px;
   height: 40px;
-  background: #555555;
+  background: #555;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -438,18 +422,17 @@ html, body {
   height: 40px;
   padding-left: 0;
   margin-right: 10px;
-
 }
 
 .html {
   width: 32px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -459,7 +442,7 @@ html, body {
 .vl-2 {
   width: 1px;
   height: 40px;
-  background: #555555;
+  background: #555;
   flex: none;
   order: 8;
   flex-grow: 0;
@@ -482,12 +465,12 @@ html, body {
 .bootstrap {
   width: 71px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -497,12 +480,11 @@ html, body {
 .vl-3 {
   width: 1px;
   height: 40px;
-  background: #555555;
+  background: #555;
   flex: none;
   order: 3;
   flex-grow: 0;
 }
-
 
 .tag-4 {
   display: flex;
@@ -520,12 +502,12 @@ html, body {
 .ruby {
   width: 37px;
   height: 20px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  color: #FFFFFF;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -534,14 +516,14 @@ html, body {
 .title-post {
   width: 327px;
   height: 105px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   display: flex;
   align-items: center;
-  color: #ffffff;
+  color: #fff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -551,7 +533,7 @@ html, body {
 .support-post {
   width: 327px;
   height: 204px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -575,21 +557,17 @@ button {
   font-size: 12px;
   margin-top: 36px;
   border: none;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
   line-height: 24px;
   display: flex;
-  align-items: center;
   text-align: center;
   color: #edecff;
   top: 670px;
 }
 
-/* Contact Section */
 .contact-container {
-  /* position: absolute; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -598,7 +576,7 @@ button {
   position: absolute;
   width: 327px;
   height: 824px;
-  left: 0px;
+  left: 0;
   top: 4670px;
 }
 
@@ -606,7 +584,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 164px;
@@ -619,14 +597,14 @@ button {
 .contact-text {
   width: 327px;
   height: 35px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   align-items: center;
   text-align: center;
-  color: #9390FF;
+  color: #9390ff;
   flex: none;
   order: 0;
   flex-grow: 0;
@@ -636,13 +614,13 @@ button {
 .description {
   width: 327px;
   height: 105px;
-  font-family: 'Inter';
+  font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   text-align: center;
-  color: #F5F5FF;
+  color: #f5f5ff;
   flex: none;
   order: 1;
   flex-grow: 0;
@@ -653,7 +631,7 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   gap: 24px;
   width: 327px;
   height: 292px;
@@ -696,13 +674,13 @@ button {
   height: 29px;
   left: 76px;
   top: 5525px;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   text-align: center;
-  color: #EBEBFF;
+  color: #ebebff;
 }
 
 .social-media-a {
@@ -710,7 +688,7 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 200px;
   height: 40px;
   top: 5490px;
@@ -721,11 +699,8 @@ button {
   position: absolute;
   width: 134px;
   height: 5px;
-  left: calc(50% - 134px/2 - 0.5px);
+  left: calc(50% - 134px / 2 - 0.5px);
   bottom: 8px;
-  background: #0D151E;
+  background: #0d151e;
   border-radius: 10px;
 }
-
-
-
