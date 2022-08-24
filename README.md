@@ -1,11 +1,12 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
-Profile Moblie Verison
+**Profile Moblie Verison**
 
 ### Description of the project.
 
 The Html & Css Mobile View Project is a mimic of figma web templates  
+
+**Portifolio project for mobile view**
 
 
 ## Built With
@@ -18,7 +19,7 @@ The Html & Css Mobile View Project is a mimic of figma web templates
 
 Run the command below from the terminal
 
-- git clone in your terminal
+- cd hello-micriverse
 - cd profile-mobile-version
 - start index.html
 
